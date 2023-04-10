@@ -1,0 +1,70 @@
+// Directorio InformacionUnidades
+
+//Archivo index.js
+
+export { default as InformacionUnidades} from '';
+
+//------------------ Archivo Informacion
+import IconoCombi from "../../img/Logo-Combi.png";
+import IconoCamion from "../../img/Logo-Camion.png";
+
+function InformacionUnidades () {
+	<div className="w-full max-w-lg container mx-auto rounded-xl shadow-lg mb-5 bg-slate-300/30">
+
+            <h1 className="text-center text-3xl my-12 text-gris ">¿Qué tipo de unidades manejamos?</h1>
+            
+	    <div className=" pb-5 text-gris flex flex-row">
+		<div className = "basis-1/2">
+			<h2 className = " text-center text-xs mb-5" > Combi <h2/>
+			<img src={IconoCombi} alt="logo" className="lg:max-w-[25%] w-12" />
+			<span>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus ac diam facilisis, vel venenatis quam vehicula. Ut in nibh erat. Nam bibendum quis ipsum eu varius. Aenean euismod in mi vitae elementum. Donec ac odio purus. Sed fermentum id augue vitae dictum. Mauris ultrices bibendum sem, vel lobortis nunc feugiat id. Nulla quam diam, suscipit finibus dolor vitae, ultrices vehicula velit. Suspendisse ac lacinia sapien. Fusce quam justo, pharetra quis dui id, tristique molestie lorem. Fusce lacus dui, fringilla a tortor eget, fermentum ullamcorper neque. Pellentesque non libero gravida, ullamcorper augue quis, vehicula nisi. Sed consequat sagittis risus, ac eleifend dui placerat ac. Nullam aliquet vehicula sodales. Cras finibus, massa at pellentesque faucibus, orci odio pharetra tellus, a finibus neque mauris sed felis. Ut vehicula neque eget ligula gravida, maximus consequat erat lobortis. Aliquam id lacus nec sem ultricies tincidunt sit amet id lacus. In commodo odio vel.
+			</span>
+		<div/>
+		<div className = "basis-1/2">
+			<h2 className = " text-center text-xs mb-5" > Camión <h2/>
+			<img src={IconoCamion} alt="logo" className="lg:max-w-[25%] w-12" />
+			<span>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus ac diam facilisis, vel venenatis quam vehicula. Ut in nibh erat. Nam bibendum quis ipsum eu varius. Aenean euismod in mi vitae elementum. Donec ac odio purus. Sed fermentum id augue vitae dictum. Mauris ultrices bibendum sem, vel lobortis nunc feugiat id. Nulla quam diam, suscipit finibus dolor vitae, ultrices vehicula velit. Suspendisse ac lacinia sapien. Fusce quam justo, pharetra quis dui id, tristique molestie lorem. Fusce lacus dui, fringilla a tortor eget, fermentum ullamcorper neque. Pellentesque non libero gravida, ullamcorper augue quis, vehicula nisi. Sed consequat sagittis risus, ac eleifend dui placerat ac. Nullam aliquet vehicula sodales. Cras finibus, massa at pellentesque faucibus, orci odio pharetra tellus, a finibus neque mauris sed felis. Ut vehicula neque eget ligula gravida, maximus consequat erat lobortis. Aliquam id lacus nec sem ultricies tincidunt sit amet id lacus. In commodo odio vel.
+			</span>
+		<div/>
+            </div>
+
+        </div>
+}
+
+export default InformacionUnidades;
+
+//////////////////////////CONOCENOS
+
+//Directorio Conocenos
+
+//Archivo index.js
+
+export { default as Conocenos} from '';
+
+//------------------ Archivo Conocenos
+
+import IconoMapa from "../../img/Logo-Mapa.png";
+
+function Conocenos() {
+	<div className="w-full max-w-lg container mx-auto rounded-xl shadow-lg mb-5 bg-slate-300/30">
+
+            <h1 className="text-center text-3xl my-12 text-gris ">Sobre Nosotros</h1>
+            
+	    <div className=" pb-5 text-gris">
+		<div >
+			<img src={IconoMapa} alt="logo" className="lg:max-w-[25%] w-12" />
+			<h2 className = " text-center text-xs mb-5" > Combi <h2/>
+			<span>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus ac diam facilisis, vel venenatis quam vehicula. Ut in nibh erat. Nam bibendum quis ipsum eu varius. Aenean euismod in mi vitae elementum. Donec ac odio purus. Sed fermentum id augue vitae dictum. Mauris ultrices bibendum sem, vel lobortis nunc feugiat id. Nulla quam diam, suscipit finibus dolor vitae, ultrices vehicula velit. Suspendisse ac lacinia sapien. Fusce quam justo, pharetra quis dui id, tristique molestie lorem. Fusce lacus dui, fringilla a tortor eget, fermentum ullamcorper neque. Pellentesque non libero gravida, ullamcorper augue quis, vehicula nisi. Sed consequat sagittis risus, ac eleifend dui placerat ac. Nullam aliquet vehicula sodales. Cras finibus, massa at pellentesque faucibus, orci odio pharetra tellus, a finibus neque mauris sed felis. Ut vehicula neque eget ligula gravida, maximus consequat erat lobortis. Aliquam id lacus nec sem ultricies tincidunt sit amet id lacus. In commodo odio vel.
+			</span>
+		<div/>
+		
+            </div>
+
+        </div>
+}
+
+export default Conocenos;
+
